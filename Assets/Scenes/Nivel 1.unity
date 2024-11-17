@@ -271,6 +271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameOver
       objectReference: {fileID: 0}
+    - target: {fileID: 4256410863037959172, guid: 6748004d81fa86d4784395a20daa7ab9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5513707028135175980, guid: 6748004d81fa86d4784395a20daa7ab9, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -516,6 +520,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1973704792023465876, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2087615650665411273, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2621565
@@ -556,7 +564,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3055665961590946204, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5640214493578407682, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5868281507544142938, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6610740183141331663, guid: a18346d2846ede8409a424a1fc4f02cb, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}

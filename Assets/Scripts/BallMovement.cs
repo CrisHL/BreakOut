@@ -24,7 +24,6 @@ public class BallMovement : MonoBehaviour
         }
     }
 
-    // Método para lanzar la pelota
     void LaunchBall()
     {
         isBallLaunched = true;
@@ -37,7 +36,7 @@ public class BallMovement : MonoBehaviour
     public void ResetBall()
     {
         float paddleHeight = paddleTransform.GetComponent<Collider2D>().bounds.size.y;
-        float ballHeight = GetComponent<Collider2D>().bounds.size.y; // Obtener la altura de la pelota
+        float ballHeight = GetComponent<Collider2D>().bounds.size.y;
 
         transform.position = new Vector3(paddleTransform.position.x, paddleTransform.position.y + paddleHeight / 2f + ballHeight / 2f, 0f);
 

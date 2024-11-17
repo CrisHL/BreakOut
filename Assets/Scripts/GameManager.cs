@@ -91,6 +91,14 @@ public class GameManager : MonoBehaviour
         }
 
         Time.timeScale = 0;
+        StartCoroutine(LoadMainMenuAfterDelay(3f));
+    }
+
+    IEnumerator LoadMainMenuAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
 
     public void LoadNextScene()
